@@ -1,0 +1,21 @@
+{
+  "name": "opaque",
+  "version": "0.0.1",
+  "description": "Detect if an image or canvas has any transparent pixels, or if it's fully opaque",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && ../node_modules/.bin/browserify test.js -o bundle.js && ../node_modules/.bin/serve"
+  },
+  "keywords": [
+    "opacity",
+    "transparent",
+    "browserify",
+    "image"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "~1.1.0",
+    "browserify": "~1.17.3"
+  }
+}
