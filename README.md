@@ -5,8 +5,16 @@ pixels.
 
 ## Installation ##
 
+Using [NPM](http://npmjs.org) and [Browserify](http://github.com/substack/node-browserify):
+
 ``` bash
 npm install opaque
+```
+
+As a [component](http://github.com/component/component):
+
+``` bash
+component install hughsk/opaque
 ```
 
 ## Usage ##
