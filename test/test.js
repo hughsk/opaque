@@ -6,6 +6,8 @@ var images = [
 , { src: '/brick.png', opaque: true }
 , { src: '/maxogden.png', opaque: false }
 , { src: '/substack.png', opaque: false }
+, { src: '/bluewool.png', opaque: false }
+, { src: '/diamond.png', opaque: false }
 ]
 
 images.forEach(function(info) {
@@ -32,5 +34,6 @@ images.forEach(function(info) {
 
     document.body.appendChild(wrapper)
   };
+
   img.src = info.src
 })
