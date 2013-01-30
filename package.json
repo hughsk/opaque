@@ -17,5 +17,12 @@
   "devDependencies": {
     "serve": "~1.1.0",
     "browserify": "~1.17.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/opaque.git"
   }
 }
